@@ -6,8 +6,9 @@
 import scrapy
 
 
-class ParserJobItem(scrapy.Item):
+class CastoparserItem(scrapy.Item):
+    # define the fields for your item here like:
     name = scrapy.Field()
-    url = scrapy.Field()
-    salary = scrapy.Field()
-    _id = scrapy.Field()
+    price = scrapy.Field()
+    photos = scrapy.Field()
+
